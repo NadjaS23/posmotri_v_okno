@@ -43,26 +43,26 @@ ol {
 .content {
   display: flex;
   align-items: flex-end;
-  width: 1140px;
+  inline-size: 1140px;
   gap: 30px;
 }
 
 .result {
   width: 711px;
-  min-height: 456px;
 }
 
 .result__video-container {
   position: relative;
   width: 711px;
   height: 386px;
-  margin-bottom: 16px;
+  margin-block-end: 16px;
 }
 
 .result__video {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: center;
 }
 
 .search-form {
@@ -82,12 +82,13 @@ ol {
   display: flex;
   width: fit-content;
   cursor: pointer;
+  align-items: center;
 }
 
 .search-form__fieldset-title {
   font-size: 18px;
   font-weight: 400;
-  line-height: 21.6px;
+  line-height: 120%;
 }
 
 .visually-hidden {
@@ -104,7 +105,7 @@ ol {
   width: 225px;
   font-size: 18px;
   font-weight: 400;
-  line-height: 21.6px;
+  line-height: 120%;
   font-family: "Fira Sans Condensed", sans-serif;
   color: #fff;
   background-color: transparent;
@@ -143,7 +144,7 @@ ol {
   font-family: "Fira Sans Condensed", sans-serif;
   font-weight: 400;
   font-size: 18px;
-  line-height: 21.6px;
+  line-height: 120%;
 }
 
 .search-form__pseudo-checkbox {
@@ -174,7 +175,7 @@ ol {
   font-family: "Fira Sans Condensed", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 21.6px;
+  line-height: 120%;
   text-align: center;
   background-color: transparent;
   color: #fff;
@@ -219,11 +220,10 @@ ol {
 
 .title {
   width: 260px;
-  height: 210px;
   font-family: "Oswald", sans-serif;
   font-size: 75px;
   font-weight: 700;
-  line-height: 70.5px;
+  line-height: 94%;
   text-transform: uppercase;
 }
 
@@ -280,7 +280,7 @@ ol {
   font-family: "Oswald", sans-serif;
   font-size: 30px;
   font-weight: 700;
-  line-height: 30px;
+  line-height: 100%;
   text-transform: uppercase;
   text-align: left;
   text-overflow: ellipsis;
@@ -293,7 +293,7 @@ ol {
   font-family: "Fira Sans Condensed", sans-serif;
   font-size: 18px;
   font-weight: 400;
-  line-height: 16.2px;
+  line-height: 90%;
   text-align: left;
 }
 
